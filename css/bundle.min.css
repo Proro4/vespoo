@@ -1,0 +1,170 @@
+.purple {
+  background: #685096; }
+
+.purple-two {
+  background: #583d8b; }
+
+.pink {
+  background: #f6e4d5;
+  position: relative; }
+  .pink .arrow-notice-first {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background: url(../img/other/arrow-new-first.png) no-repeat 57% center; }
+
+.orange {
+  background: #d4762d; }
+
+.pink a:hover {
+  background: #583d8b; }
+
+.indigo a:hover {
+  background: #d4762d; }
+
+.indigo {
+  background: #f1f0f0;
+  position: relative; }
+  .indigo .arrow-notice-two {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background: url(../img/other/arrow-new-two.png) no-repeat 57% center; }
+
+.profile-tabs.services {
+  width: 100%; }
+  .profile-tabs.services ul li {
+    width: 25%;
+    height: 75px;
+    padding: 10px 5px 0px 5px; }
+    .profile-tabs.services ul li a {
+      padding-top: 15px;
+      padding-bottom: 29px;
+      line-height: 1.2; }
+  .profile-tabs.services ul li:last-child {
+    width: 25%; }
+
+.new-notice {
+  height: 85px;
+  margin: 20px 0 25px; }
+  .new-notice p {
+    float: left;
+    line-height: 1.1;
+    text-align: center;
+    width: 450px;
+    padding: 13px 10px;
+    font-size: 24px;
+    color: #583d8b;
+    font-family: "arial";
+    text-transform: uppercase; }
+  .new-notice a {
+    position: relative;
+    z-index: 3;
+    margin-top: 21px;
+    margin-right: 25px;
+    line-height: 2;
+    float: right;
+    display: inline-block;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    color: white;
+    width: 280px;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+            transition: 0.2s all; }
+
+.check-price p {
+  color: #473589;
+  font-size: 18px;
+  font-family: 'Arial';
+  margin-bottom: 15px; }
+
+.check-price .field {
+  margin-left: 250px;
+  display: inline-block;
+  width: 480px; }
+  .check-price .field p {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: #583d8b;
+    text-transform: uppercase;
+    text-align: right; }
+    .check-price .field p span {
+      font-size: 24px;
+      color: #d4762d;
+      font-weight: bold; }
+  .check-price .field .area-form .area-form__in {
+    margin: 10px 0; }
+  .check-price .field .area-form .selectric b {
+    color: rgba(0, 0, 0, 0.5);
+    background: url(../img/icons-sprites/icon-all/more-top-viollet.png) no-repeat center;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    overflow: hidden;
+    -webkit-transition: 0.3s all;
+            transition: 0.3s all; }
+  .check-price .field .area-form .selectric b:after {
+    border: none; }
+
+.commercial-services {
+  margin-bottom: 100px; }
+
+.profile-title img {
+  float: left;
+  width: 130px;
+  height: 100px; }
+
+.profile-title .profile-title-text {
+  float: left;
+  width: 600px;
+  padding: 25px 40px 35px 20px; }
+  .profile-title .profile-title-text p {
+    position: relative;
+    line-height: 1;
+    font-size: 20px;
+    font-family: 'arial';
+    color: #d4762d; }
+  .profile-title .profile-title-text p:after {
+    position: absolute;
+    content: ' ';
+    background: url(../img/other/arrow-bot-orange-lg.png) no-repeat 70% bottom;
+    height: 60px;
+    width: 130px; }
+
+.profile-title .profile-text {
+  clear: both;
+  padding: 25px 0;
+  line-height: 1.3;
+  font-size: 18px;
+  color: #473589; }
+
+.profile-title .profile-info img {
+  float: left;
+  height: 465px;
+  width: 530px; }
+
+.profile-title .profile-info ul {
+  text-transform: uppercase;
+  font-size: 18px;
+  float: left;
+  padding-left: 20px;
+  font-family: 'arial';
+  color: #d4762d; }
+  .profile-title .profile-info ul li {
+    text-transform: none;
+    color: #473589;
+    background: url(../img/icons-sprites/icon-all/arrow-profile-right.png) no-repeat 0 12px;
+    line-height: 1;
+    padding-left: 25px;
+    height: auto;
+    width: auto; }
+  .profile-title .profile-info ul li:last-child {
+    width: 350px; }
+
+.profile-tabs .top-notice {
+  min-height: 760px; }
