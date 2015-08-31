@@ -241,6 +241,18 @@
       text-transform: uppercase;
       line-height: 5.5;
       margin-bottom: 20px; }
+    .content-wrap.container.last_step .last-step p {
+      display: inline-block;
+      font-family: 'arial';
+      font-size: 16px;
+      color: #583d8b; }
+    .content-wrap.container.last_step .last-step a {
+      display: inline-block;
+      font-family: 'arial';
+      font-size: 16px;
+      color: #d4762d; }
+    .content-wrap.container.last_step .last-step a:hover {
+      text-decoration: underline; }
     .content-wrap.container.last_step .last-step .step-info {
       width: 620px;
       display: inline-block;
@@ -260,20 +272,22 @@
         font-size: 16px;
         font-weight: bold; }
       .content-wrap.container.last_step .last-step .step-info a {
+        width: 225px;
+        height: 50px;
         font-size: 20px;
         font-family: 'arial';
         color: #685096;
         text-transform: uppercase;
         display: inline-block;
-        width: 225px;
-        height: 50px;
         line-height: 2.4;
         border: 1px solid #dfdfdf;
         box-shadow: 0px 0px 10px #d0d0d0;
         margin-top: 35px;
         -webkit-transition: 0.2s all;
                 transition: 0.2s all;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        width: 225px;
+        height: 50px; }
       .content-wrap.container.last_step .last-step .step-info a:hover {
         border-bottom: 2px solid #cbcbcb;
         box-shadow: 0px 0px 30px #dfdfdf;
@@ -281,20 +295,76 @@
       .content-wrap.container.last_step .last-step .step-info a:active {
         border: 1px solid #dfdfdf;
         border-top: 2px solid #cbcbcb; }
-      .content-wrap.container.last_step .last-step .step-info h5 {
+    .content-wrap.container.last_step .last-step h5 {
+      color: #473589;
+      font-size: 14px;
+      font-family: 'arial';
+      font-weight: normal; }
+  .content-wrap.container.last_step .advertsiment-accepted {
+    font-size: 16px;
+    font-family: 'arial';
+    color: #583d8b;
+    width: 780px;
+    display: inline-block;
+    border-bottom: 1px solid #594995;
+    padding-bottom: 40px;
+    margin-bottom: 20px; }
+    .content-wrap.container.last_step .advertsiment-accepted span {
+      font-size: 16px;
+      font-family: 'arial';
+      color: #583d8b;
+      font-weight: bold; }
+    .content-wrap.container.last_step .advertsiment-accepted ul {
+      float: left;
+      position: relative;
+      text-align: left;
+      font-size: 18px;
+      font-family: 'arial';
+      color: #d4762d;
+      text-transform: uppercase;
+      margin-top: 30px; }
+      .content-wrap.container.last_step .advertsiment-accepted ul li {
+        padding-left: 25px;
+        margin-bottom: 10px;
+        width: 360px;
+        line-height: 1.2;
+        text-transform: none;
         color: #473589;
-        font-size: 14px;
-        font-family: 'arial';
-        font-weight: normal; }
-    .content-wrap.container.last_step .last-step p {
-      display: inline-block;
+        font-size: 18px;
+        background: url(../img/icons-sprites/icon-all/arrow-profile-right.png) no-repeat 0 3px; }
+      .content-wrap.container.last_step .advertsiment-accepted ul li:first-child {
+        margin-top: 20px; }
+    .content-wrap.container.last_step .advertsiment-accepted ul:after {
+      position: absolute;
+      height: 41px;
+      width: 87px;
+      content: "";
+      background: url(../img/other/arrow-b-o.png) no-repeat;
+      left: 370px;
+      top: 50px; }
+    .content-wrap.container.last_step .advertsiment-accepted a {
+      text-align: center;
+      float: right;
+      width: 225px;
+      height: 50px;
+      font-size: 20px;
       font-family: 'arial';
-      font-size: 16px;
-      color: #583d8b; }
-    .content-wrap.container.last_step .last-step a {
+      color: #685096;
+      text-transform: uppercase;
       display: inline-block;
-      font-family: 'arial';
-      font-size: 16px;
-      color: #d4762d; }
-    .content-wrap.container.last_step .last-step a:hover {
-      text-decoration: underline; }
+      line-height: 2.4;
+      border: 1px solid #dfdfdf;
+      box-shadow: 0px 0px 10px #d0d0d0;
+      margin-top: 35px;
+      -webkit-transition: 0.2s all;
+              transition: 0.2s all;
+      margin-bottom: 10px;
+      margin-top: 140px;
+      margin-right: 119px; }
+    .content-wrap.container.last_step .advertsiment-accepted a:hover {
+      border-bottom: 2px solid #cbcbcb;
+      box-shadow: 0px 0px 30px #dfdfdf;
+      text-decoration: none; }
+    .content-wrap.container.last_step .advertsiment-accepted a:active {
+      border: 1px solid #dfdfdf;
+      border-top: 2px solid #cbcbcb; }
