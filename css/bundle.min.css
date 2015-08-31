@@ -413,3 +413,47 @@
         font-family: 'arial'; }
       .content-wrap.container.last_step .premium-options ul li img {
         padding-bottom: 5px; }
+
+.content-wrap.container.inactive {
+  margin-top: 110px; }
+  .content-wrap.container.inactive .inactive-message {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 90px;
+    background: #d4762d; }
+    .content-wrap.container.inactive .inactive-message p {
+      position: relative;
+      padding: 15px 10px 20px 80px;
+      color: white;
+      font-size: 24px;
+      font-family: arial;
+      line-height: 1.2; }
+      .content-wrap.container.inactive .inactive-message p a {
+        color: #eab993;
+        text-decoration: underline; }
+      .content-wrap.container.inactive .inactive-message p a:hover {
+        text-decoration: none; }
+    .content-wrap.container.inactive .inactive-message p:before {
+      left: 25px;
+      top: 23px;
+      position: absolute;
+      display: inline-block;
+      height: 35px;
+      width: 35px;
+      text-align: center;
+      border-radius: 50px;
+      content: "!";
+      font-size: 28px;
+      font-family: 'arial';
+      color: #d4762d;
+      background: white; }
+  .content-wrap.container.inactive .advert-title {
+    background-color: #f2d6c0; }
+  .content-wrap.container.inactive .advert-el__price {
+    color: white; }
+  .content-wrap.container.inactive .pagination {
+    padding-top: 25px;
+    border-top: 1px solid #685096; }
+  .content-wrap.container.inactive .advert-el__price {
+    height: 86px;
+    line-height: 86px; }
