@@ -220,3 +220,81 @@
       .popular-bar ul li a:hover {
         color: #d4762d;
         text-decoration: underline; }
+
+.content-wrap.container.last_step {
+  margin-top: 110px;
+  padding-top: 40px;
+  border-top: 2px solid #685096; }
+  .content-wrap.container.last_step .last-step {
+    margin-bottom: 40px;
+    text-align: center; }
+    .content-wrap.container.last_step .last-step h2 {
+      width: 800px;
+      display: inline-block;
+      text-align: center;
+      height: 110px;
+      background: #f1f0f0;
+      font-size: 20px;
+      font-family: 'arial';
+      font-weight: bold;
+      color: #d4762d;
+      text-transform: uppercase;
+      line-height: 5.5;
+      margin-bottom: 20px; }
+    .content-wrap.container.last_step .last-step .step-info {
+      width: 620px;
+      display: inline-block;
+      border-bottom: 1px solid #594995;
+      padding-bottom: 40px;
+      margin-bottom: 20px; }
+      .content-wrap.container.last_step .last-step .step-info p {
+        display: block;
+        font-family: 'arial';
+        color: #583d8b;
+        line-height: 1;
+        font-size: 16px; }
+      .content-wrap.container.last_step .last-step .step-info span {
+        font-family: 'arial';
+        color: #583d8b;
+        line-height: 1;
+        font-size: 16px;
+        font-weight: bold; }
+      .content-wrap.container.last_step .last-step .step-info a {
+        font-size: 20px;
+        font-family: 'arial';
+        color: #685096;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 225px;
+        height: 50px;
+        line-height: 2.4;
+        border: 1px solid #dfdfdf;
+        box-shadow: 0px 0px 10px #d0d0d0;
+        margin-top: 35px;
+        -webkit-transition: 0.2s all;
+                transition: 0.2s all;
+        margin-bottom: 10px; }
+      .content-wrap.container.last_step .last-step .step-info a:hover {
+        border-bottom: 2px solid #cbcbcb;
+        box-shadow: 0px 0px 30px #dfdfdf;
+        text-decoration: none; }
+      .content-wrap.container.last_step .last-step .step-info a:active {
+        border: 1px solid #dfdfdf;
+        border-top: 2px solid #cbcbcb; }
+      .content-wrap.container.last_step .last-step .step-info h5 {
+        color: #473589;
+        font-size: 14px;
+        font-family: 'arial';
+        font-weight: normal; }
+    .content-wrap.container.last_step .last-step p {
+      display: inline-block;
+      font-family: 'arial';
+      font-size: 16px;
+      color: #583d8b; }
+    .content-wrap.container.last_step .last-step a {
+      display: inline-block;
+      font-family: 'arial';
+      font-size: 16px;
+      color: #d4762d; }
+    .content-wrap.container.last_step .last-step a:hover {
+      text-decoration: underline; }
