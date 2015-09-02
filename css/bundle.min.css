@@ -457,3 +457,45 @@
   .content-wrap.container.inactive .advert-el__price {
     height: 86px;
     line-height: 86px; }
+
+.row p strong {
+  color: #d4762d; }
+
+.footer {
+  position: relative; }
+
+.arrow-top {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+  z-index: 100;
+  width: 980px;
+  height: 0;
+  margin: 0 auto;
+  text-align: right;}
+.arrow-to-top{
+  position: fixed;
+}
+.arrow-top a{
+  left: 995px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: url(../img/icons-sprites/icon-top.png)no-repeat;
+  display: inline-block;
+  top: 400px;
+}
+  .arrow-top a:hover {
+    background: url(../img/icons-sprites/icon-top-o.png)no-repeat; }
+.slider-main .slick-prev::after{
+  background: url(../img/icons-sprites/icon-all/arrow-left-right.png)no-repeat right top, rgba(255,255,255,0.4) !important;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;}
+.slider-main .slick-next:after{
+  background: url(../img/icons-sprites/icon-all/arrow-left-right.png)no-repeat right top, rgba(255,255,255,0.4) !important;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;}

@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Vespoo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/bundle.min.css">
 	<link rel="stylesheet" href="css/orange.css">
 	<link rel="stylesheet" href="css/selectric.css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -12,22 +13,28 @@
 	<link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-	
+<!--Begin Arrow-top-->
+<div class="arrow-top">
+	<div class="arrow-to-top">
+		<a id="top" href=""><img src="" alt=""></a>
+	</div>
+</div>
+<!--end Arrow-top-->
 	<!-- begin wrapper  -->
-	<div id="main" class="wrapper">
+	<div id="main" class="wrapper" >
 		<!-- begin banner-top -->
 		<div class="banner-top">
 			<a href="#" class="banner-top__in"></a>
 			<button class="close-banner-fix">x</button>
 		</div>
 		<!-- end banner-top -->
-		
+
 		<!-- begin header  -->
-		<div class="header">
-			<div class="container">
+		<div class="header" name='header'>
+			<div class="container" >
 				<!-- begin header__top  -->
-				<div class="header__top">
-					<a href="index.html" class="logo"><img src="img/logo.png" alt="Vespoo"></a>
+				<div class="header__top" >
+					<a href="index.html"  class="logo"><img src="img/logo.png" alt="Vespoo"></a>
 					<a href="#" class="post-new">+ Подать объявление</a>
 					<a href="#" class="userbox">Мой профиль</a>
 					<ul class="lang-selector">
@@ -46,7 +53,7 @@
 						</div>
 						<!-- begin field  -->
 						<div class="field search">
-							<input type="text" placeholder="Поиск...">
+							<input type="text" placeholder="8 350 432 обявлений">
 							<a href="#" class="clear-input icon-all-close"></a>
 						</div>
 						<!-- begin field  -->
@@ -107,15 +114,98 @@
 				<!-- begin nav-main  -->
 				<ul class="nav-main">
 					<li>
-						<span><span class="icon-wrap"><i class="icon-main-child"></i></span>Детский раздел</span>
+						<span><span class="icon-wrap"><i class="icon-main-business"></i></span>Бизнес и услуги</span>
 						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub child-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Детский раздел <span>(смотреть все объявления)</span></a></h2>
+						<div class="nav-main-sub business-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Бизнес и услуги <span>(смотреть все объявления)</span></a></h2>
 							<ul>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
+							</ul>
+						</div>
+						<!-- end nav-main-sub -->
+					</li>
+					<li>
+						<span><span class="icon-wrap"><i class="icon-main-house"></i></span>Дом и сад</span>
+						<!-- begin nav-main-sub -->
+						<div class="nav-main-sub house-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Дом и сад <span>(смотреть все объявления)</span></a></h2>
+							<ul>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
+							</ul>
+						</div>
+						<!-- end nav-main-sub -->
+					</li>
+					<li>
+						<span><span class="icon-wrap"><i class="icon-main-child"></i></span>Детский раздел</span>
+						<!-- begin nav-main-sub -->
+						<div class="nav-main-sub child-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Детский раздел <span>(смотреть все объявления)</span></a></h2>
+							<ul>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+							</ul>
+						</div>
+						<!-- end nav-main-sub -->
+					</li>
+					<li>
+						<span><span class="icon-wrap"><i class="icon-main-animal"></i></span>Животные</span>
+						<!-- begin nav-main-sub -->
+						<div class="nav-main-sub animal-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Животные <span>(смотреть все объявления)</span></a></h2>
+							<ul>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_9"></i></span>IT / телеком / компьютеры</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_10"></i></span>Охрана / безопасность</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_11"></i></span>Производство / енергетика</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_12"></i></span>Туризм / отдых / развлечения</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_13"></i></span>Начало карьеры / студенты</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_14"></i></span>Медицина / фармация</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_15"></i></span>Транспорт / логистика</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_16"></i></span>Маркетинг / реклама / дизайн</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_17"></i></span>Юриспруденция / бухгалтерия</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_18"></i></span>Частичная занятость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_19"></i></span>Красота / фитнес / спорт</a></li>
+							</ul>
+						</div>
+						<!-- end nav-main-sub -->
+					</li>
+					<li>
+						<span><span class="icon-wrap"><i class="icon-main-style"></i></span>Мода и стиль</span>
+						<!-- begin nav-main-sub -->
+						<div class="nav-main-sub style-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Мода и стиль <span>(смотреть все объявления)</span></a></h2>
+							<ul>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
 							</ul>
 						</div>
 						<!-- end nav-main-sub -->
@@ -124,7 +214,7 @@
 						<span><span class="icon-wrap"><i class="icon-main-state"></i></span>Недвижимость</span>
 						<!-- begin nav-main-sub -->
 						<div class="nav-main-sub state-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Недвижимость <span>(смотреть все объявления)</span></a></h2>
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Недвижимость <span>(смотреть все объявления)</span></a></h2>
 							<ul>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
@@ -139,28 +229,19 @@
 						<!-- end nav-main-sub -->
 					</li>
 					<li>
-						<span><span class="icon-wrap"><i class="icon-main-transport"></i></span>Транспорт</span>
-						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub transport-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Транспорт <span>(смотреть все объявления)</span></a></h2>
-							<ul>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
-							</ul>
-						</div>
-						<!-- end nav-main-sub -->
+						<a href="#"><span class="icon-wrap"><i class="icon-main-help"></i></span>Нужна помощь</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-wrap"><i class="icon-main-trade"></i></span>Обмен</a>
+					</li>
+					<li>
+						<a href="#"><span class="icon-wrap"><i class="icon-main-present"></i></span>Отдам даром</a>
 					</li>
 					<li>
 						<span><span class="icon-wrap"><i class="icon-main-work"></i></span>Работа</span>
 						<!-- begin nav-main-sub -->
 						<div class="nav-main-sub work-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Работа <span>(смотреть все объявления)</span></a></h2>
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Работа <span>(смотреть все объявления)</span></a></h2>
 							<ul>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
@@ -188,93 +269,10 @@
 						<!-- end nav-main-sub -->
 					</li>
 					<li>
-						<span><span class="icon-wrap"><i class="icon-main-animal"></i></span>Животные</span>
+						<span><span class="icon-wrap"><i class="icon-main-transport"></i></span>Транспорт</span>
 						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub animal-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Животные <span>(смотреть все объявления)</span></a></h2>
-							<ul>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_9"></i></span>IT / телеком / компьютеры</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_10"></i></span>Охрана / безопасность</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_11"></i></span>Производство / енергетика</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_12"></i></span>Туризм / отдых / развлечения</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_13"></i></span>Начало карьеры / студенты</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_14"></i></span>Медицина / фармация</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_15"></i></span>Транспорт / логистика</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_16"></i></span>Маркетинг / реклама / дизайн</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_17"></i></span>Юриспруденция / бухгалтерия</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_18"></i></span>Частичная занятость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_19"></i></span>Красота / фитнес / спорт</a></li>
-							</ul>
-						</div>
-						<!-- end nav-main-sub -->
-					</li>
-					<li>
-						<span><span class="icon-wrap"><i class="icon-main-house"></i></span>Дом и сад</span>
-						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub house-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Дом и сад <span>(смотреть все объявления)</span></a></h2>
-							<ul>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
-							</ul>
-						</div>
-						<!-- end nav-main-sub -->
-					</li>
-					<li>
-						<span><span class="icon-wrap"><i class="icon-main-electro"></i></span>Электроника</span>
-						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub electro-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Электроника <span>(смотреть все объявления)</span></a></h2>
-							<ul>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
-							</ul>
-						</div>
-						<!-- end nav-main-sub -->
-					</li>
-					<li>
-						<span><span class="icon-wrap"><i class="icon-main-business"></i></span>Бизнес и услуги</span>
-						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub business-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Бизнес и услуги <span>(смотреть все объявления)</span></a></h2>
-							<ul>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
-								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
-							</ul>
-						</div>
-						<!-- end nav-main-sub -->
-					</li>
-					<li>
-						<span><span class="icon-wrap"><i class="icon-main-style"></i></span>Мода и стиль</span>
-						<!-- begin nav-main-sub -->
-						<div class="nav-main-sub style-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Мода и стиль <span>(смотреть все объявления)</span></a></h2>
+						<div class="nav-main-sub transport-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Транспорт <span>(смотреть все объявления)</span></a></h2>
 							<ul>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
@@ -292,7 +290,7 @@
 						<span><span class="icon-wrap"><i class="icon-main-hobby"></i></span>Хобби, отдых и спорт</span>
 						<!-- begin nav-main-sub -->
 						<div class="nav-main-sub hobby-bg">
-							<h2 class="post-title"><span class="nav-close-btn">закрыть X </span><a href="#">Хобби <span>(смотреть все объявления)</span></a></h2>
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Хобби <span>(смотреть все объявления)</span></a></h2>
 							<ul>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
 								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
@@ -307,13 +305,22 @@
 						<!-- end nav-main-sub -->
 					</li>
 					<li>
-						<a href="#"><span class="icon-wrap"><i class="icon-main-help"></i></span>Нужна помощь</a>
-					</li>
-					<li>
-						<a href="#"><span class="icon-wrap"><i class="icon-main-present"></i></span>Отдам даром</a>
-					</li>
-					<li>
-						<a href="#"><span class="icon-wrap"><i class="icon-main-trade"></i></span>Обмен</a>
+						<span><span class="icon-wrap"><i class="icon-main-electro"></i></span>Электроника</span>
+						<!-- begin nav-main-sub -->
+						<div class="nav-main-sub electro-bg">
+							<h2 class="post-title"><span class="nav-close-btn">закрыть <b>X</b> </span><a href="#">Электроника <span>(смотреть все объявления)</span></a></h2>
+							<ul>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_1"></i></span>Розничная торговля / продажи</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_2"></i></span>Недвижимость</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_3"></i></span>Бары / рестораны</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_4"></i></span>Секретариат / АХО</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_5"></i></span>Домашний персонал</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_6"></i></span>Сервис и быт</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_7"></i></span>Образование</a></li>
+								<li><a href="#"><span class="icon-wrap"><i class="icon-work-img_8"></i></span>Строительство</a></li>
+							</ul>
+						</div>
+						<!-- end nav-main-sub -->
 					</li>
 				</ul>
 				<!-- end nav-main -->
@@ -345,8 +352,12 @@
 			
 					<!-- begin vip-post  -->
 					<div class="vip-post">
+
 						<h2 class="post-title"><a href="#">VIP-объявления</a></h2>
 						<!-- begin post-list -->
+						<div class="row">
+							<a href="#" class="top-post-btn"><i class="icon-all-arrow-left"></i>Как сюда попасть ?</a>
+						</div>
 						<ul class="post-list">
 							<!-- begin post -->
 							<li>
@@ -433,6 +444,7 @@
 						<div class="show-all-btn">
 							<a href="#">Все VIP-объявления</a>
 						</div>
+
 					</div>
 					<!-- end vip-post -->
 				</div>
@@ -664,7 +676,7 @@
 			<div class="section-new">
 				<!-- begin section-new__left -->
 				<div class="section-new__left">
-					<h2 class="post-title"><a href="#">Все новые объявления</a></h2>
+					<h2 class="post-title"><a href="#">Новые объявления</a></h2>
 					<!-- begin post-list  -->
 					<ul class="post-list">
 						<!-- begin post -->
@@ -943,7 +955,6 @@
 					<p>Компания</p>
 					<ul class="footer-list">
 						<li><a href="#">Добавить обьявление</a></li>
-						<li><a href="#">Добавить магазин</a></li>
 						<li><a href="#">Реклама на сайте</a></li>
 						<li><a href="#">Безопасные сделки Vespoo</a></li>
 						<li><a href="#">Партнерские программы</a></li>
@@ -953,7 +964,8 @@
 				<div class="footer__col">
 					<p>Партнерам</p>
 					<ul class="footer-list">
-						<li><a href="#">Политика конфиденциальности и возвращения средств</a></li>
+						<li><a href="#">Политика конфиденциальности</a></li>
+						<li><a href="#">Возвращения средств</a></li>
 						<li><a href="#">Карта опций</a></li>
 						<li><a href="#">Карта городов</a></li>
 						<li><a href="#">Карта сайта</a></li>
