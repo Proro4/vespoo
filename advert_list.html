@@ -62,12 +62,14 @@
 						</div>
 					</fieldset>
 				</form>
-
 				<!-- begion location-wrap -->
 				<div class="location-wrap">
 					<div class="location-title">
-						<button class="location-title__all">Вся Украина</button>
-						<button class="location-title__region">область</button>
+						<button class="location-title__all">Искать по всей стране</button>
+						<br>
+
+						<button class="location-title__region region-hover">Искать по всей области</button>
+						<button class="location-title_this_region"></button>
 						<button class="location-title__back">вернуться к выбору области</button>
 					</div>
 					<div class="search-city-wrap">
@@ -76,8 +78,19 @@
 					</div>
 					<div class="region-wrap"></div>
 					<div class="city-wrap"></div>
+					<div class="exit-location-wrap">
+						закрыть <span>X</span>
+					</div>
 				</div>
 				<!-- end location-wrap -->
+				<div class="search-city">
+					<p>Где вы:</p>
+					<button  class="take-city">Киев</button>
+					<button  class="take-city">Одесса</button>
+					<div class="search-city-line"></div>
+					<button class="take-searchForm">Выбрать город</button>
+					<i>X</i>
+				</div>
 			</div>
 		</div>
 		<!-- end header -->
@@ -294,6 +307,7 @@
 									<input type="text" class="form-input nav-input" name="brand">
 									<ul class="nav-menu">
 										<li><a href="javascript:void(0);"><span>Все</span></a></li>
+										<li><a href="javascript:void(0);"><span>Все</span></a></li>
 										<li><a href="javascript:void(0);"><span>BMW</span></a></li>
 										<li><a href="javascript:void(0);"><span>Lexus</span></a></li>
 										<li><a href="javascript:void(0);"><span>Audi</span></a></li>
@@ -305,7 +319,8 @@
 									<i class="clear-filter-btn"></i>
 									<div class="multifilters-info-wrap"><i class="icon-all-info"></i><span></span></div>
 									<ul class="nav-menu">
-										<li><label><input type="checkbox"><span>Все</span></label></li>
+										<li><label><input type="checkbox"><span>Модель</span></label></li>
+										<li><label><input type="checkbox"><span>Все</span><i class="icon-all-info multifilters-info">подсказка, которой повезло - она особенная</i></label></li>
 										<li><label><input type="checkbox"><span>Модель 1</span><i class="icon-all-info multifilters-info">подсказка, которой повезло - она особенная</i></label></li>
 										<li><label><input type="checkbox"><span>Модель 2</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Модель 3</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
@@ -413,7 +428,8 @@
 									<i class="clear-filter-btn"></i>
 									<div class="multifilters-info-wrap"><i class="icon-all-info"></i><span></span></div>
 									<ul class="nav-menu">
-										<li><label><input type="checkbox"><span>Все</span></label></li>
+										<li><label><input type="checkbox"><span>Тип кузова</span></label></li>
+										<li><label><input type="checkbox"><span>Все</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Кабриолет</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Пикап</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Купе</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
@@ -431,7 +447,8 @@
 									<i class="clear-filter-btn"></i>
 									<div class="multifilters-info-wrap"><i class="icon-all-info"></i><span></span></div>
 									<ul class="nav-menu">
-										<li class="is-active"><label><input type="checkbox"><span>Все</span></label></li>
+										<li class="is-active"><label><input type="checkbox"><span>Вид топлива</span></label></li>
+										<li><label><input type="checkbox"><span>Все</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Бензин</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Дизель</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Другой</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
@@ -443,7 +460,8 @@
 									<i class="clear-filter-btn"></i>
 									<div class="multifilters-info-wrap"><i class="icon-all-info"></i><span></span></div>
 									<ul class="nav-menu">
-										<li><label><input type="checkbox"><span>Все</span></label></li>
+										<li><label><input type="checkbox"><span>Коробка передач</span></label></li>
+										<li><label><input type="checkbox"><span>Все</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Механическая</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Автоматическая</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Другая</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
@@ -456,6 +474,7 @@
 									<div class="multifilters-info-wrap"><i class="icon-all-info"></i><span></span></div>
 									<ul class="nav-menu">
 										<li><label><input type="checkbox"><span>Все</span></label></li>
+										<li><label><input type="checkbox"><span>Все</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Белый</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Черный</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
 										<li><label><input type="checkbox"><span>Синий</span><i class="icon-all-info multifilters-info">подсказка на все случаи жизни</i></label></li>
