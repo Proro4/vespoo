@@ -294,7 +294,7 @@ body { min-width: 1240px; font-family: Arial, sans-serif; font-size: 16px; color
 .header.is-fixed { position: fixed; top: 0; z-index: 1000; }
 .header.is-fixed .container { position: relative; padding-top: 2px; padding-bottom: 2px; box-shadow: 0 0 6px rgba(1, 1, 1, 0.5); -webkit-transition: all 0.3s; transition: all 0.3s; }
 .header.is-fixed .container .header__bot { display: none; }
-.header.is-fixed .container .logo { margin-left: 2px; height: 38px; width: 57px; background: url("../img/logo-mini.png") no-repeat center center; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.header.is-fixed .container .logo { margin-left: 2px; height: 38px; width: 57px; background: url("../img/logo-mini.png") no-repeat center center; background-size: contain; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .header.is-fixed .container .logo img { display: none; }
 .header.is-fixed .container .userbox { margin-top: 0; font-size: 16px; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .header.is-fixed .container .post-new { margin-top: 0; margin-right: 2px; font-size: 16px; -webkit-transition: all 0.3s; transition: all 0.3s; }
