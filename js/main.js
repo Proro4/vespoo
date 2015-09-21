@@ -1421,6 +1421,7 @@ $(window).scroll(function () {
 	var WindowHeight = $(window).height();
 	var heightTop = jQuery(document).scrollTop();
 	if (heightTop >= 220) {
+		$('.banner-standart-text').css('display','none');
 	    $('.header').addClass('is-fixed');
 		$('.location-wrap').css('margin-top','10px');
 		$('.location-wrap').css('padding-top','10px');
@@ -1429,6 +1430,7 @@ $(window).scroll(function () {
 	    $('.header').removeClass('is-fixed');
 		$('.location-wrap').css('margin-top','-1px');
 		$('.location-wrap').css('padding-top','0px');
+		$('.banner-standart-text').css('display','block');
 	}
 	if(heightTop >= 470){
 		$('.body-branding .banner-1').css('position','fixed');

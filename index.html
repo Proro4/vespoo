@@ -66,8 +66,11 @@
 				<!-- begion location-wrap -->
 				<div class="location-wrap">
 					<div class="location-title">
-						<button class="location-title__all">Вся Украина</button>
-						<button class="location-title__region">область</button>
+						<button class="location-title__all">Искать по всей стране</button>
+						<br>
+
+						<button class="location-title__region region-hover">Искать по всей области</button>
+						<button class="location-title_this_region"></button>
 						<button class="location-title__back">вернуться к выбору области</button>
 					</div>
 					<div class="search-city-wrap">
@@ -76,8 +79,19 @@
 					</div>
 					<div class="region-wrap"></div>
 					<div class="city-wrap"></div>
+					<div class="exit-location-wrap">
+						закрыть <span>X</span>
+					</div>
 				</div>
 				<!-- end location-wrap -->
+				<div class="search-city">
+					<p>Где вы:</p>
+					<button  class="take-city">Киев</button>
+					<button  class="take-city">Одесса</button>
+					<div class="search-city-line"></div>
+					<button class="take-searchForm">Выбрать город</button>
+					<i>X</i>
+				</div>
 			</div>
 		</div>
 		<!-- end header -->
@@ -360,7 +374,15 @@
 						</div>
 						<ul class="post-list">
 							<!-- begin post -->
-							<li>
+							<li class="post-list-vip">
+								<div class="stickers-list">
+									<div class="stockers-top-list">	
+										<div class="vip-orange-three"><p>vip</p></div>
+									</div>
+									<div class="left-flag-orange"><div class="stic-hail-big"></div></div>	
+									<div class="stic-orange"><div class="stic-smile"></div></div>
+									<div class="stic-orange"><div class="stic-tick"></div></div>
+								</div>
 								<div class="post-list__mark icon-all-icon-mark">
 									<i class="icon-main-electro"></i>
 								</div>
@@ -373,7 +395,15 @@
 								</div>
 							</li>
 							<!-- begin post -->
-							<li>
+							<li class="post-list-vip">
+								<div class="stickers-list">
+									<div class="stockers-top-list">
+										<div class="vip-orange"><p>vip</p></div>
+									</div>
+									<div class="stic-orange"><div class="stic-fire"></div></div>
+									<div class="stic-orange"><div class="stic-bomb"></div></div>
+									<div class="stic-orange"><div class="stic-clock"></div></div>
+								</div>
 								<div class="post-list__mark icon-all-icon-mark">
 									<i class="icon-main-house"></i>
 								</div>
@@ -386,7 +416,15 @@
 								</div>
 							</li>
 							<!-- begin post -->
-							<li>
+							<li class="post-list-vip">
+								<div class="stickers-list">
+									<div class="stockers-top-list">	
+										<div class="vip-orange-two"><i></i><p>vip</p></div>
+									</div>
+									<div class="left-flag-orange"><p>sale</p></div>
+									<div class="stic-orange"><div class="stic-finger-up"></div></div>
+									<div class="stic-orange"><div class="stic-sign-hail"></div></div>
+								</div>
 								<div class="post-list__mark icon-all-icon-mark">
 									<i class="icon-main-trade"></i>
 								</div>
@@ -400,6 +438,7 @@
 							</li>
 							<!-- begin post -->
 							<li>
+								
 								<div class="post-list__mark icon-all-icon-mark">
 									<i class="icon-main-work"></i>
 								</div>
@@ -413,6 +452,13 @@
 							</li>
 							<!-- begin post -->
 							<li>
+								<div class="stickers-list">
+									<div class="stockers-top-list">	
+									</div>
+									<div class="left-flag-orange"><div class="stic-hail-big"></div></div>	
+									<div class="stic-orange"><div class="stic-smile"></div></div>
+									<div class="stic-orange"><div class="stic-tick"></div></div>
+								</div>
 								<div class="post-list__mark icon-all-icon-mark">
 									<i class="icon-main-transport"></i>
 								</div>
@@ -466,7 +512,16 @@
 					<!-- begin post-list -->
 					<ul class="post-list">
 						<!-- begin post -->
-						<li>
+						<li class="post-list-top">
+							<div class="stickers-list">
+									<div class="stockers-top-list">	
+										<div class="vip-purple-two"><i></i><p>top</p></div>
+									</div>
+									<div class="left-flag-purple"><p>sale</p></div>
+									<div class="stic-purple"><div class="stic-finger-up"></div></div>
+									<div class="stic-purple"><div class="stic-sign-hail"></div></div>
+									
+								</div>
 							<div class="post-list__mark icon-all-icon-mark">
 								<i class="icon-main-house"></i>
 							</div>
@@ -479,7 +534,15 @@
 							</div>
 						</li>
 						<!-- begin post -->
-						<li>
+						<li class="post-list-top">
+							<div class="stickers-list">
+									<div class="stockers-top-list">	
+										<div class="vip-purple-three"><p>top</p></div>
+									</div>
+									<div class="left-flag-purple"><div class="stic-hail-big"></div></div>
+									<div class="stic-purple"><div class="stic-smile"></div></div>	
+									<div class="stic-purple"><div class="stic-tick"></div></div>
+								</div>
 							<div class="post-list__mark icon-all-icon-mark">
 								<i class="icon-main-trade"></i>
 							</div>
@@ -505,7 +568,15 @@
 							</div>
 						</li>
 						<!-- begin post -->
-						<li>
+						<li class="post-list-top">
+							<div class="stickers-list">
+									<div class="stockers-top-list">
+										<div class="vip-purple"><p>top</p></div>	
+									</div>
+									<div class="stic-purple"><div class="stic-fire"></div></div>
+									<div class="stic-purple"><div class="stic-bomb"></div></div>
+									<div class="stic-purple"><div class="stic-clock"></div></div>
+								</div>
 							<div class="post-list__mark icon-all-icon-mark">
 								<i class="icon-main-transport"></i>
 							</div>
@@ -519,6 +590,14 @@
 						</li>
 						<!-- begin post -->
 						<li>
+							<div class="stickers-list">
+									<div class="stockers-top-list">	
+										
+									</div>
+									<div class="left-flag-purple"><div class="stic-hail-big"></div></div>
+									<div class="stic-purple"><div class="stic-smile"></div></div>	
+									<div class="stic-purple"><div class="stic-tick"></div></div>
+								</div>
 							<div class="post-list__mark icon-all-icon-mark">
 								<i class="icon-main-animal"></i>
 							</div>

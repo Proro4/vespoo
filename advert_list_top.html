@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Vespoo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/bundle.min.css">
 	<link rel="stylesheet" href="css/orange.css">
 	<link rel="stylesheet" href="css/selectric.css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -65,8 +66,11 @@
 				<!-- begion location-wrap -->
 				<div class="location-wrap">
 					<div class="location-title">
-						<button class="location-title__all">Вся Украина</button>
-						<button class="location-title__region">область</button>
+						<button class="location-title__all">Искать по всей стране</button>
+						<br>
+
+						<button class="location-title__region region-hover">Искать по всей области</button>
+						<button class="location-title_this_region"></button>
 						<button class="location-title__back">вернуться к выбору области</button>
 					</div>
 					<div class="search-city-wrap">
@@ -75,8 +79,19 @@
 					</div>
 					<div class="region-wrap"></div>
 					<div class="city-wrap"></div>
+					<div class="exit-location-wrap">
+						закрыть <span>X</span>
+					</div>
 				</div>
 				<!-- end location-wrap -->
+				<div class="search-city">
+					<p>Где вы:</p>
+					<button  class="take-city">Киев</button>
+					<button  class="take-city">Одесса</button>
+					<div class="search-city-line"></div>
+					<button class="take-searchForm">Выбрать город</button>
+					<i>X</i>
+				</div>
 			</div>
 		</div>
 		<!-- end header -->
