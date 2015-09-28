@@ -281,7 +281,7 @@
         display: inline-block;
         line-height: 2.4;
         border: 1px solid #dfdfdf;
-        box-shadow: 0px 0px 10px #d0d0d0;
+        box-shadow: 0px 0px 3px #d0d0d0;
         margin-top: 35px;
         -webkit-transition: 0.2s all;
                 transition: 0.2s all;
@@ -290,7 +290,7 @@
         height: 50px; }
       .content-wrap.container.last_step .last-step .step-info a:hover {
         border-bottom: 2px solid #cbcbcb;
-        box-shadow: 0px 0px 30px #dfdfdf;
+        box-shadow: 0px -2px 10px #dfdfdf;
         text-decoration: none; }
       .content-wrap.container.last_step .last-step .step-info a:active {
         border: 1px solid #dfdfdf;
@@ -354,7 +354,7 @@
       display: inline-block;
       line-height: 2.4;
       border: 1px solid #dfdfdf;
-      box-shadow: 0px 0px 10px #d0d0d0;
+      box-shadow: 0px 0px 3px #d0d0d0;
       margin-top: 35px;
       -webkit-transition: 0.2s all;
               transition: 0.2s all;
@@ -363,7 +363,7 @@
       margin-right: 119px; }
     .content-wrap.container.last_step .advertsiment-accepted a:hover {
       border-bottom: 2px solid #cbcbcb;
-      box-shadow: 0px 0px 30px #dfdfdf;
+      box-shadow: 0px -2px 10px #dfdfdf;
       text-decoration: none; }
     .content-wrap.container.last_step .advertsiment-accepted a:active {
       border: 1px solid #dfdfdf;
