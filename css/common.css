@@ -285,7 +285,17 @@ body { min-width: 1240px; font-family: Arial, sans-serif; font-size: 16px; color
 .header__top .logo { float: left; margin-left: 0; height: 64px; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .header__top .logo img { height: 100%; vertical-align: bottom; }
 .header__top .post-new { margin-top: 10px; margin-right: 0; -webkit-transition: all 0.3s; transition: all 0.3s; }
-.header__top .userbox { float: right; margin-top: 10px; margin-right: 20px; line-height: 38px; -webkit-transition: all 0.3s; transition: all 0.3s; padding-left: 35px; background: url(../img/icons-sprites/icon-all/user-lg.png)no-repeat -2px 5px;}
+.header__top .userbox { float: right; margin-top: 10px; margin-right: 20px; line-height: 38px; -webkit-transition: all 0.3s; transition: all 0.3s; padding-left: 35px; background: url(../img/icons-sprites/icon-all/user-lg.png)no-repeat -2px 5px; position:relative;}
+
+.header__top .userbox-pop-up{display: none; position: absolute; top:50px; right: 29%; width: 150px; min-height: 100px; background: white; border-radius: 2px; box-shadow: 0px 0px 3px rgba(0,0,0,0.3); z-index: 5;}
+.header__top .userbox-pop-up li{ text-align: center; color:white;}
+.header__top .userbox-pop-up li:first-child a{ padding: 10px 0; background:#675096; color:white;}
+.header__top .userbox-pop-up li a{color:rgb(103, 80, 150); transition:0.1s all; padding: 5px 0; display: inline-block; width: 100%; height: 100%; border-top:1px dotted rgb(103, 80, 150);}
+.header__top .userbox-pop-up li:last-child a{text-align: left; padding-left: 20px; background: #d4762e; color:white; }
+.header__top .userbox-pop-up li:last-child a:hover{ background: #675096;}
+.header__top .userbox-pop-up li a i{font-style: normal; font-family: cursive; padding-left: 30px;}
+.header__top .userbox-pop-up li a:hover{background:#d4762e; color:white; }
+
 .header__top .userbox:hover { color: #d4762d;  background: url(../img/icons-sprites/icon-all/user-lg-o.png)no-repeat -2px 5px;}
 .header__top .lang-selector { position: absolute; top: 14px; left: 100%; margin-left: 10px; padding: 0 3px; white-space: nowrap; background-color: #fff; border-radius: 5px; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .header__top .lang-selector li { display: inline-block; font-size: 16px; }

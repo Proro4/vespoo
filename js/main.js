@@ -1458,5 +1458,11 @@ $(function() {
 		$('html, body').animate({scrollTop: 0},500);
 		return false;
 	})
+	$('.userbox').mouseenter(function(){
+		$('.header__top .userbox-pop-up').css('display','block')
+	})
+	$('.header__top .userbox-pop-up').mouseleave(function(){
+		$('.header__top .userbox-pop-up').css('display','none')
+	})
 
 })
